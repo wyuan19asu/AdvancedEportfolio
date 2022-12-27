@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weicheng Yuan</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="landing-page">
       <nav>
         <figure>
-          <img src="" alt="" />
+          <img id="personal-logo" src="./assets/logo.jpg" alt="" />
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link">
@@ -35,8 +39,100 @@
               >Contact</a
             >
           </li>
+          <li class="nav__link click">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              ><i class="fas fa-adjust"></i
+            ></a>
+          </li>
         </ul>
       </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title purple">I'm Weicheng.</h1>
+          <p class="header__para">
+            I am a <b class="purple">Frontend Software Engineer</b> with a
+            strong passion for building web applications and experiencing new
+            things.
+            <br />
+            Here's more <b class="purple">about me.</b>
+          </p>
+          <div class="social__list">
+            <a
+              href="https://www.linkedin.com/in/weicheng-yuan-10426917a/"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/wyuan19asu"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="/assets/WeichengYuanResumeLast.pdf"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fas fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="purple">Projects</span>
+          </h1>
+          <ul class="projects__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  alt=""
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Dendritic Identifier Scanner
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React, AWS, Python
+                  </h4>
+                  <p class="project__description--para">
+                    Developed an web application where users have the ability to
+                    scan images, insert information about that image and upload
+                    it to an AWS database using APIs and managed the User
+                    Interface using HTML, CSS, JS, and React JS.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
